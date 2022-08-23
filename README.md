@@ -4,6 +4,8 @@ A list of useful commands and some examples use cases at the end.
 
 ## Content
 
+#### Basic
+
 [Initialise a new Git repository](#initialise-a-new-git-repository)  
 [Set configuration for values for username and email](#set-configuration-for-values-for-username-and-email)  
 [Clone a repository](#clone-a-repository)  
@@ -15,21 +17,34 @@ A list of useful commands and some examples use cases at the end.
 [Remove a file from the index and working directory](#remove-a-file-from-the-index-and-working-directory)  
 [List the commit history](#list-the-commit-history)  
 [List the last two items from commit history](#list-the-last-two-items-from-commit-history)  
-[Check the metadata and content changes of the commit](#check-the-metadata-and-content-changes-of-the-commit)  
+[Check the metadata and content changes of the commit](#check-the-metadata-and-content-changes-of-the-commit)
+
+#### Branches
+
 [List all local branches](#list-all-local-branches)  
 [Create new branch](#create-new-branch)  
 [Rename the current branch](#rename-the-current-branch)  
 [Delete a branch](#delete-a-branch)  
 [Switch branch](#switch-branch)  
-[Merge specified branch into current branch](#merge-specified-branch-into-current-branch)  
+[Merge specified branch into current branch](#merge-specified-branch-into-current-branch)
+
+#### Push and Pull
+
 [Create new connection to a remote repository](#create-new-connection-to-a-remote-repository)  
 [Push the committed changes to a remote repository](#push-the-committed-changes-to-a-remote-repository)  
 [Download the content from a remote repository](#download-the-content-from-a-remote-repository)  
-[Clean-up unnecessary files and optimise the local repository](#clean-up-unnecessary-files-and-optimise-the-local-repository)  
+[Clean-up unnecessary files and optimise the local repository](#clean-up-unnecessary-files-and-optimise-the-local-repository)
+
+#### Stash
+
 [Temporarily remove uncommitted changes and save them for later](#temporarily-remove-uncommitted-changes-and-save-them-for-later)  
-[Reapply previously stashed changes]#reapply-previously-stashed-changes  
+[Reapply previously stashed changes](#reapply-previously-stashed-changes)
+
+#### Example use cases
+
 [A new repo from scratch on local machine](#a-new-repo-from-scratch-on-local-machine)  
-[Merge from develop into main branch and tag the release](#merge-from-develop-into-main-branch-and-tag-the-release)
+[Merge from develop into main branch and tag the release](#merge-from-develop-into-main-branch-and-tag-the-release)  
+[Delete unwanted branches](#delete-unwanted-branches)
 
 ## Basic
 
@@ -174,3 +189,21 @@ Now push these changes to Github:
 
     $ git push
     $ git push origin v1.3.1
+
+### Delete unwanted branches
+
+1. List branches in local machine (optional, but worth checking)
+
+   $ git branch -a
+
+2. Move to a new branch
+
+   $ git checkout <branch-you-wish-to-move-to>
+
+3. Delete the old branch
+
+   $ git branch -d <:branch-you-wish-to-delete:>
+
+4. Clean-up the local references
+
+   $ git remote prune origin
