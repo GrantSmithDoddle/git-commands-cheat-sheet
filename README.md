@@ -2,6 +2,15 @@
 
 A list of useful commands and some examples use cases at the end.
 
+## Content
+
+[Initialise a new Git repository]#initialise-a-new-git-repository
+[Set configuration for values for username and email]#set-configuration-for-values-for-username-and-email
+[Clone a repository]#clone-a-repository
+[Add a file to the staging area]#add-a-file-to-the-staging-area
+[Check the un-staged changes]#check-the-un-staged-changes
+[Commit the staged changes]#commit-the-staged-changes
+
 ## Basic
 
 ### Initialise a new Git repository:
