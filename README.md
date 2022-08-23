@@ -118,6 +118,15 @@ A list of useful commands and some examples use cases at the end.
     $ git init
     $ git add .
     $ git commit -m "<commit-message>"
+    $ gh repo create
+
+Take note of your repository name as this will form the URL required in the next steps.
+
+Now we need to connect our local directory with the newly created git repository.
+
+    $ git remote add origin <git-url-repository-name>
+    $ git branch -M <branch>
+    $ git push -u origin <branch>
 
 ### Merge from develop into main branch and tag the release:
 
