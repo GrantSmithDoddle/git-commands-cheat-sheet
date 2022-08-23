@@ -4,12 +4,32 @@ A list of useful commands and some examples use cases at the end.
 
 ## Content
 
-[Initialise a new Git repository]#initialise-a-new-git-repository
-[Set configuration for values for username and email]#set-configuration-for-values-for-username-and-email
-[Clone a repository]#clone-a-repository
-[Add a file to the staging area]#add-a-file-to-the-staging-area
-[Check the un-staged changes]#check-the-un-staged-changes
-[Commit the staged changes]#commit-the-staged-changes
+[Initialise a new Git repository](#initialise-a-new-git-repository)  
+[Set configuration for values for username and email](#set-configuration-for-values-for-username-and-email)  
+[Clone a repository](#clone-a-repository)  
+[Add a file to the staging area](#add-a-file-to-the-staging-area)  
+[Check the un-staged changes](#check-the-un-staged-changes)  
+[Commit the staged changes](#commit-the-staged-changes)  
+[Reset staging area to the last commit](#reset-staging-area-to-the-last-commit)  
+[Check the state of the working directory](#check-the-state-of-the-working-directory)  
+[Remove a file from the index and working directory](#remove-a-file-from-the-index-and-working-directory)  
+[List the commit history](#list-the-commit-history)  
+[List the last two items from commit history](#list-the-last-two-items-from-commit-history)  
+[Check the metadata and content changes of the commit](#check-the-metadata-and-content-changes-of-the-commit)  
+[List all local branches](#list-all-local-branches)  
+[Create new branch](#create-new-branch)  
+[Rename the current branch](#rename-the-current-branch)  
+[Delete a branch](#delete-a-branch)  
+[Switch branch](#switch-branch)  
+[Merge specified branch into current branch](#merge-specified-branch-into-current-branch)  
+[Create new connection to a remote repository](#create-new-connection-to-a-remote-repository)  
+[Push the committed changes to a remote repository](#push-the-committed-changes-to-a-remote-repository)  
+[Download the content from a remote repository](#download-the-content-from-a-remote-repository)  
+[Clean-up unnecessary files and optimise the local repository](#clean-up-unnecessary-files-and-optimise-the-local-repository)  
+[Temporarily remove uncommitted changes and save them for later](#temporarily-remove-uncommitted-changes-and-save-them-for-later)  
+[Reapply previously stashed changes]#reapply-previously-stashed-changes  
+[A new repo from scratch on local machine](#a-new-repo-from-scratch-on-local-machine)  
+[Merge from develop into main branch and tag the release](#merge-from-develop-into-main-branch-and-tag-the-release)
 
 ## Basic
 
